@@ -1,0 +1,26 @@
+html {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1 {
+  font-size: calc(1.325rem + 2vw);
+  margin-bottom: 24px;
+}
+
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
+  color: #263238;
+}
