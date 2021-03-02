@@ -1,5 +1,5 @@
 # UI-kit
-Chart templates & Graphs UI kit includes: interactive visialisation of Vertical/Horisontal bars, Line chart, Doughnut chart, Pie Chart and Radar Chart. 
+Chart templates & Graphs UI kit includes: interactive visualization of Vertical/Horizontal bars, Line chart, Donut chart, Pie Chart and Radar Chart. 
 
 To view a live demo, [click here](https://sinicynapolina.ru/ui-kit/).
 
