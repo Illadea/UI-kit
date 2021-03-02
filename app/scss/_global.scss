@@ -24,3 +24,21 @@ body {
   font-weight: 400;
   color: #263238;
 }
+
+// Changed bootstrap styles
+.card {
+  border: unset;
+  box-shadow: 0px 3.38629px 5.64383px rgba(176, 190, 197, 0.32);
+}
+
+.card-title {
+  margin-bottom: 1rem;
+}
+
+.card-text:last-child {
+  margin-bottom: 36px;
+}
+
+.card-body {
+  padding: 1.125rem 1.125rem;
+}
