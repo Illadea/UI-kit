@@ -100,7 +100,7 @@ let lineChartInfographics = document.getElementById('line-chart');
 let lineChart = new Chart(lineChartInfographics, {
   type: 'line',
   data: {
-    labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
+    labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
     datasets: [{
       backgroundColor: '#f8e3fc',
       borderColor: '#855CF8',
@@ -115,7 +115,11 @@ let lineChart = new Chart(lineChartInfographics, {
   options: {
     scales: {
       xAxes: [{
-        display: false
+        display: true,
+        gridLines: {
+          color: "white",
+          zeroLineColor: "white",
+        }
       }],
       yAxes: [{
         display: false,
